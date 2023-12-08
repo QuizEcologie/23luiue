@@ -1,0 +1,94 @@
+/* Reset CSS et polices */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4; /* Couleur de fond */
+  color: #333; /* Couleur du texte principal */
+}
+
+nav {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  z-index: 1000;
+}
+
+.NAVA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.NAVA a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 20px;
+  transition: color 0.3s ease;
+}
+
+.NAVA a:hover {
+  color: green; /* Couleur au survol */
+}
+
+main {
+  padding-top: 100px; /* Espace pour éviter que le contenu ne soit caché par la barre de navigation */
+  margin-bottom: 50px; /* Espace en bas */
+}
+
+section {
+  background-color: #fff; /* Fond des sections */
+  padding: 40px;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+section p {
+  width: 30%;
+  margin-bottom: 20px;
+  color: #555; /* Couleur du texte */
+}
+
+section img {
+  width: 600px;
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour les images */
+  max-width: 100%; /* Ajuste la largeur de l'image pour rester dans sa zone parente */
+  max-height: 100%;
+}
+
+.styled-link {
+  display: block;
+  width: 200px;
+  margin: 50px auto;
+  padding: 15px 20px;
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.styled-link:hover {
+  background-color: #146b30; /* Couleur au survol */
+}
+.ima {
+  align-items: center;
+}
